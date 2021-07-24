@@ -5,6 +5,7 @@ convert $FILENAME"temp.miff[0]" -contrast-stretch 0 -evaluate log 1000000 $FILEN
 #convert $FILENAME"temp.miff[0]" -auto-level -evaluate log 1000000 $FILENAME"L6-FFT-a.png"
 #convert $FILENAME"temp.miff[0]" -normalize -evaluate log 1000000 $FILENAME"L6-FFT-n.png"
 convert $FILENAME"temp.miff[0]" -evaluate log 1000000 $FILENAME"rawfft.png"
+convert $FILENAME"temp.miff[0]" -evaluate log 1000000 -brightness-contrast 50x75 $FILENAME"fixedfft.png"
 #convert $FILENAME"temp.miff[0]" -evaluate log 1000000 -normalize $FILENAME"rawfft-n.png"
 #convert $FILENAME"temp.miff[0]" -evaluate log 1000000 -contrast-stretch 0 $FILENAME"rawfft-c.png"
 #convert $FILENAME"ext.png" -fft $FILENAME"fft-debug.png"
