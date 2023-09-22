@@ -1,6 +1,6 @@
 # ANIFFT
 
-[アニメのキャプチャにFFTをかけて、大まかな画質を推定する](https://github.com/yuuki76/NIBINA)プロジェクトに利用するコード。
+[アニメのキャプチャにFFTをかけて、大まかな画質を推定する](https://github.com/krisfail/NIBINA)プロジェクトに利用するコード。
 
 Autofft.sh:FFTWが利用可能でImageMagickが利用できる必要がある。  
 Autofft.py:現在開発中。クロスプラットフォームにしようと努力してる
